@@ -1,0 +1,23 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #160342;
+  color: white;
+  height: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 1.5em 0 0 0;
+}
+
+.main-video {
+}
