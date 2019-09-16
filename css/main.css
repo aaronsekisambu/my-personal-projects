@@ -7,12 +7,33 @@ body {
 .main-header {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #160342;
   color: white;
   height: 50px;
+  padding-top: 2em;
 }
 
+.logo img {
+  width: 30px;
+  height: 30px;
+}
+.input-search {
+  width: 200px;
+  height: 20px;
+  border-radius: 1px;
+  padding-left: 1em;
+}
+
+.search-button {
+  height: 25px;
+  font-size: 14px;
+}
+
+.avatar img {
+  width: 30px;
+  height: 30px;
+}
 .container {
   display: flex;
   flex-direction: row;
