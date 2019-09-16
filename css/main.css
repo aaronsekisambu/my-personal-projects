@@ -60,3 +60,19 @@ body {
   font-family: sans-serif;
   padding-left: 10px;
 }
+
+.interactions{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.avatar{
+  width: 30px;
+  height: 30px;
+}
+
+.icon-imgs img{
+  width: 30px;
+  height: 30px;
+}
