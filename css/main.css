@@ -19,5 +19,23 @@ body {
   padding: 1.5em 0 0 0;
 }
 
-.main-video {
+.sidebar-suggestions{
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.videos-suggestion{
+  display: flex;
+  flex-direction: row;
+}
+
+.thumbnail-video > iframe{
+  height: 150px;
+  width: 220px;
+}
+
+.information{
+  font-family: sans-serif;
+  padding-left: 10px;
 }
