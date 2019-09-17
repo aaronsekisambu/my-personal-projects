@@ -1,3 +1,7 @@
+html {
+  display: inline-flex;
+}
+
 
 body {
   margin: 0;
@@ -21,25 +25,28 @@ body {
 .input-search {
   width: 200px;
   height: 20px;
-  border-radius: 1px;
+  border-radius: 4px;
   padding-left: 1em;
+  padding-left: 1em;
+  font-size: 14px;
 }
 
 .search-button {
   height: 25px;
   font-size: 14px;
+  border-radius: 4px;
 }
 
 .avatar img {
   width: 30px;
   height: 30px;
+  padding: 0 1em 0 0;
 }
 .container {
   display: flex;
   flex-direction: row;
   padding: 1.5em 0 0 0;
 }
-
 .sidebar-suggestions{
   display: flex;
   flex-direction: column;
@@ -67,12 +74,97 @@ body {
   justify-content: space-between;
 }
 
-.avatar{
+.user {
   width: 30px;
   height: 30px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-radius: 200px;
+  padding: 1em;
 }
 
 .icon-imgs img{
   width: 30px;
   height: 30px;
+  padding: 0 1em 0 0.5em;
+}
+
+.information-elements h2, .interactions p, .user {
+  margin-left: 25px;
+}
+
+.share {
+  background-color: red;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 2px;
+}
+
+@media all and (min-width: 540px) and (max-width: 786px ){
+  html {
+    display: inline-flex;
+  }
+ 
+  .sidebar-suggestions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+  }
+
+  .videos-suggestion {
+    padding: 2em 0 2em 0;
+    padding-left: .2em;
+  }
+  .container {
+    flex-wrap: wrap;
+    padding: 1.5em 0 0 0;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 425px ){
+  html {
+    display: inline-flex;
+  }
+
+  .sidebar-suggestions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+  }
+
+  .videos-suggestion {
+    padding-bottom: 2em;
+    padding-left: .2em;
+  }
+
+  .container {
+    flex-wrap: wrap;
+    padding: 1.5em 0 0 0;
+  }
+
+}
+
+@media all and (min-width: 2560px){
+  html {
+    display: inline-flex;
+  }
+
+  .sidebar-suggestions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+  }
+
+  .videos-suggestion {
+    padding-bottom: 2em;
+    padding-left: .2em;
+  }
+  .container {
+    flex-wrap: wrap;
+    padding: 1.5em 0 0 0;
+  }
+
 }
