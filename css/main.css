@@ -13,6 +13,10 @@ body {
   padding-top: 2em;
 }
 
+.video-player{
+  border = 0;
+}
+
 .logo img {
   width: 30px;
   height: 30px;
@@ -53,7 +57,7 @@ body {
   flex-direction: row;
 }
 
-.thumbnail-video > iframe{
+.thumbnail-video > img{
   height: 150px;
   width: 220px;
 }
