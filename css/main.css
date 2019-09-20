@@ -13,10 +13,15 @@ body {
   padding-top: 2em;
 }
 
+.video-player {
+  border: 0;
+}
+
 .logo img {
   width: 30px;
   height: 30px;
 }
+
 .input-search {
   width: 200px;
   height: 20px;
@@ -37,54 +42,58 @@ body {
   height: 30px;
   padding: 0 1em 0 0;
 }
+
 .container {
   display: flex;
   flex-direction: row;
   padding: 1.5em 0 0 0;
 }
-.sidebar-suggestions{
+
+.sidebar-suggestions {
   display: flex;
   flex-direction: column;
   padding-left: 20px;
 }
 
-.videos-suggestion{
+.videos-suggestion {
   display: flex;
   flex-direction: row;
 }
 
-.thumbnail-video > iframe{
+.thumbnail-video>img {
   height: 150px;
   width: 220px;
 }
 
-.information{
+.information {
   font-family: sans-serif;
   padding-left: 10px;
 }
 
-.interactions{
+.interactions {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 .user {
-  width: 30px;
-  height: 30px;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
   border-radius: 200px;
+  height: 30px;
   padding: 1em;
+  width: 30px;
 }
 
-.icon-imgs img{
-  width: 30px;
+.icon-imgs img {
   height: 30px;
   padding: 0 1em 0 0.5em;
+  width: 30px;
 }
 
-.information-elements h2, .interactions p, .user {
+.information-elements .heading,
+.interactions p,
+.user {
   margin-left: 25px;
 }
 
@@ -95,7 +104,7 @@ body {
   border-radius: 2px;
 }
 
-@media all and (min-width: 540px) and (max-width: 786px ){
+@media all and (min-width: 540px) and (max-width: 786px) {
   html {
     display: inline-flex;
   }
@@ -111,13 +120,14 @@ body {
     padding: 2em 0 2em 0;
     padding-left: .2em;
   }
+
   .container {
     flex-wrap: wrap;
     padding: 1.5em 0 0 0;
   }
 }
 
-@media all and (min-width: 320px) and (max-width: 425px ){
+@media all and (min-width: 320px) and (max-width: 425px) {
   html {
     display: inline-flex;
   }
@@ -141,7 +151,8 @@ body {
 
 }
 
-@media all and (min-width: 2560px){
+
+@media all and (min-width: 2560px) {
   html {
     display: inline-flex;
   }
@@ -157,6 +168,7 @@ body {
     padding-bottom: 2em;
     padding-left: .2em;
   }
+
   .container {
     flex-wrap: wrap;
     padding: 1.5em 0 0 0;
