@@ -1,5 +1,5 @@
-# EMBEDDING IMAGES AND VIDEO
-This is the first project of the microverse. It is a simple clone from the youtube's video player webpage.
+# Design Tears
+In this project we work on wire-framing the the magazine page
 ``We Worked with HTML and CSS.``
 
 ## Links to the assignment
