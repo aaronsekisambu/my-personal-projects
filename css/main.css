@@ -1,177 +1,69 @@
-body {
-  margin: 0;
-  padding: 0;
-}
-
-.main-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-color: #160342;
-  color: white;
-  height: 50px;
-  padding-top: 2em;
-}
-
-.video-player {
-  border: 0;
-}
-
-.logo img {
-  width: 30px;
-  height: 30px;
-}
-
-.input-search {
-  width: 200px;
-  height: 20px;
+.gradient-header {
+  position: relative;
+  display: block;
+  width: 980px;
+  height: 36px;
+  margin: 18px auto;
+  text-align: left;
+  z-index: 9998;
   border-radius: 4px;
-  padding-left: 1em;
-  padding-left: 1em;
-  font-size: 14px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  top: 18px;
+  margin: 0 auto;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+  
 }
 
-.search-button {
-  height: 25px;
-  font-size: 14px;
-  border-radius: 4px;
+ul {
+  list-style: none outside;
 }
 
-.avatar img {
-  width: 30px;
-  height: 30px;
-  padding: 0 1em 0 0;
+li {
+  width: 100%;
+  display: table-cell;
+}
+
+li a {
+  display: block;
+  float: none;
+  text-decoration: none;
+  border-width: 0 2px 0 0;
+  height: 35px;
+  border-style: solid;
+  color: rgb(129, 128, 128);
+}
+
+li a span {
+  display: block;
+    width: 100%;
+    padding: 8px;
+    margin: -12px auto;
+    color: white;
+    font-size: 15px;
+}
+
+.global-nav {
+  display: table;
+  float: left;
+  width: 845px;
+  table-layout: fixed;
+}
+
+.billboard {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 292px;
+  left: 0;
+  overflow: hidden;
 }
 
 .container {
-  display: flex;
-  flex-direction: row;
-  padding: 1.5em 0 0 0;
-}
-
-.sidebar-suggestions {
-  display: flex;
-  flex-direction: column;
-  padding-left: 20px;
-}
-
-.videos-suggestion {
-  display: flex;
-  flex-direction: row;
-}
-
-.thumbnail-video>img {
-  height: 150px;
-  width: 220px;
-}
-
-.information {
-  font-family: sans-serif;
-  padding-left: 10px;
-}
-
-.interactions {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.user {
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-  border-radius: 200px;
-  height: 30px;
-  padding: 1em;
-  width: 30px;
-}
-
-.icon-imgs img {
-  height: 30px;
-  padding: 0 1em 0 0.5em;
-  width: 30px;
-}
-
-.information-elements .heading,
-.interactions p,
-.user {
-  margin-left: 25px;
-}
-
-.share {
-  background-color: red;
-  color: white;
-  padding: 5px 15px;
-  border-radius: 2px;
-}
-
-@media all and (min-width: 540px) and (max-width: 786px) {
-  html {
-    display: inline-flex;
-  }
-
-  .sidebar-suggestions {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-bottom: 2em;
-  }
-
-  .videos-suggestion {
-    padding: 2em 0 2em 0;
-    padding-left: .2em;
-  }
-
-  .container {
-    flex-wrap: wrap;
-    padding: 1.5em 0 0 0;
-  }
-}
-
-@media all and (min-width: 320px) and (max-width: 425px) {
-  html {
-    display: inline-flex;
-  }
-
-  .sidebar-suggestions {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-bottom: 2em;
-  }
-
-  .videos-suggestion {
-    padding-bottom: 2em;
-    padding-left: .2em;
-  }
-
-  .container {
-    flex-wrap: wrap;
-    padding: 1.5em 0 0 0;
-  }
-
-}
-
-
-@media all and (min-width: 2560px) {
-  html {
-    display: inline-flex;
-  }
-
-  .sidebar-suggestions {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-bottom: 2em;
-  }
-
-  .videos-suggestion {
-    padding-bottom: 2em;
-    padding-left: .2em;
-  }
-
-  .container {
-    flex-wrap: wrap;
-    padding: 1.5em 0 0 0;
-  }
-
+  right: auto;
+  left: 50%;
+  margin-left: -720px;
+  width: 1440px;
+  background: url('../assets/amALion.jpg') 50% 100% no-repeat;
+  background-size: 1440px 1315px;
 }

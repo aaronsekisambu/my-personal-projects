@@ -7,4 +7,3 @@ This is the first project of the microverse. It is a simple clone from the youtu
 
 ## Contributors
   - [Aaron](https://github.com/aaronsekisambu)
-  - [Abel](https://github.com/alvp01)
