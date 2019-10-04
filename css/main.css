@@ -1,41 +1,103 @@
-
-body {
+body,
+html {
   margin: 0;
   padding: 0;
 }
 
-.main-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  background-color: #160342;
-  color: white;
-  height: 50px;
+.billboard {
+  right: 0;
+  top: 0;
 }
 
 .container {
+  background-size: cover;
+  background: url("../assets/amALion.jpg") no-repeat;
+  height: 680px;
+  left: 50%;
+  right: auto;
+}
+
+.gradient-header {
+  background: linear-gradient(rgba(49, 49, 49, 0.2), rgba(172, 172, 172, 0.5),  rgba(0, 0, 0, 0.45));
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  display: block;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial,Verdana, sans-serif;
+  height: 36px;
+  left: 24%;
+  margin: 0 auto;
+  position: absolute;
+  text-align: left;
+  top: 3em;
+  width: 980px;
+  z-index: 9998;
+}
+
+li {
+  display: table-cell;
+  width: 100%;
+}
+
+li a {
+  border-style: solid;
+  border-width: 0 2px 0 0;
+  color: rgb(75, 74, 74);
+  display: block;
+  float: none;
+  height: 34.3px;
+  text-decoration: none;
+}
+
+li a span {
+  color: white;
+  display: block;
+  font-size: 15px;
+  margin: -12px auto;
+  padding: 8px;
+}
+
+ul {
+  list-style: none outside;
+}
+
+.global-nav {
+  display: table;
+  float: left;
+  table-layout: fixed;
+  width: 845px;
+}
+
+.title {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  font-weight: lighter;
+  left: 24%;
+  margin: 0 auto;
+  position: absolute;
+  top: 2.5em;
+}
+
+.sub-headline {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  left: 24%;
+  margin: 0 auto;
+  position: absolute;
+  top: 5.2em;
+}
+
+.promos ul {
   display: flex;
-  flex-direction: row;
-  padding: 1.5em 0 0 0;
+  justify-content: space-between;
+  margin: 0.2em 0 0 0;
+  padding: 0;
 }
 
-.sidebar-suggestions{
-  display: flex;
-  flex-direction: column;
-  padding-left: 20px;
-}
-
-.videos-suggestion{
-  display: flex;
-  flex-direction: row;
-}
-
-.thumbnail-video > iframe{
-  height: 150px;
-  width: 220px;
-}
-
-.information{
-  font-family: sans-serif;
-  padding-left: 10px;
+.promo-img {
+  width: 99.33%;
 }
