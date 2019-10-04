@@ -1,106 +1,103 @@
-
-
-body, html {
-  margin: 0;
-  padding: 0;
+body,
+html {
+    margin: 0;
+    padding: 0;
 }
 
 .gradient-header {
-  position: absolute;
-  display: block;
-  margin: 0  auto;
-  width: 980px;
-  left: 24%;
-  height: 36px;
-  text-align: left;
-  z-index: 9998;
-  border-radius: 4px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
-          box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
-  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-  top: 3em;
-  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
-
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+    border-radius: 4px;
+    display: block;
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    height: 36px;
+    left: 24%;
+    margin: 0 auto;
+    position: absolute;
+    text-align: left;
+    top: 3em;
+    width: 980px;
+    z-index: 9998;
 }
 
 li {
-  width: 100%;
-  display: table-cell;
+    display: table-cell;
+    width: 100%;
 }
 
 li a {
-  display: block;
-  float: none;
-  text-decoration: none;
-  border-width: 0 2px 0 0;
-  height: 35px;
-  border-style: solid;
-  color: rgb(129, 128, 128);
+    border-style: solid;
+    border-width: 0 2px 0 0;
+    color: rgb(129, 128, 128);
+    display: block;
+    float: none;
+    height: 35px;
+    text-decoration: none;
 }
 
 li a span {
-  display: block;
-    width: 100%;
-    padding: 8px;
-    margin: -12px auto;
     color: white;
+    display: block;
     font-size: 15px;
+    margin: -12px auto;
+    padding: 8px;
+    width: 100%;
 }
 
 ul {
-  list-style: none outside;
+    list-style: none outside;
 }
 
 .global-nav {
-  display: table;
-  float: left;
-  width: 845px;
-  table-layout: fixed;
+    display: table;
+    float: left;
+    table-layout: fixed;
+    width: 845px;
 }
 
 .billboard {
-  top: 0;
-  right: 0;
+    right: 0;
+    top: 0;
 }
 
 .container {
-  right: auto;
-  left: 50%;
-  height: 680px;
-  background: url('../assets/amALion.jpg')  no-repeat;
-  background-size: cover;
+    background-size: cover;
+    background: url('../assets/amALion.jpg') no-repeat;
+    height: 680px;
+    left: 50%;
+    right: auto;
 }
 
 .title {
-  position: absolute;
-  color: white;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: lighter;
-  font-size: 40px;
-  margin: 0 auto;
-  top: 2.5em;
-  left: 24%;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    left: 24%;
+    margin: 0 auto;
+    position: absolute;
+    top: 2.5em;
 }
 
 .sub-headline {
-  position: absolute;
-  color: white;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: lighter;
-  font-size: 30px;
-  margin: 0 auto;
-  top: 5.2em;
-  left: 24%
-
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    left: 24%;
+    margin: 0 auto;
+    position: absolute;
+    top: 5.2em;
 }
 
-.promos  ul{
-  display: flex;
-  justify-content: space-between;
-  margin: 0.2em 0 0 0;
-  padding: 0;
+.promos ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.2em 0 0 0;
+    padding: 0;
 }
 
 .promo-img {
-  width: 99.33%;
+    width: 99.33%;
 }
